@@ -37,3 +37,11 @@ CREATE TABLE industries (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT
 );
+
+-- From lab solutions
+
+CREATE TABLE industry_memberships (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  company_id INTEGER,
+  industry_id INTEGER
+);
